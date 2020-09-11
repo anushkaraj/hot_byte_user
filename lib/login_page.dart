@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hot_byte_user/screentest.dart';
 import 'package:hot_byte_user/signin.dart';
 
 import 'first_screen.dart';
@@ -54,7 +55,7 @@ class _LoginPageState extends State<LoginPage> {
                               Navigator.of(context).push(
                                 MaterialPageRoute(
                                   builder: (context) {
-                                    return MyHomePage();
+                                    return Menu();
                                   },
                                 ),
                               );
